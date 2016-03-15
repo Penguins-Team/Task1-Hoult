@@ -1,0 +1,137 @@
+body,ul,ol,li,h1,h2,h4,img{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "微软雅黑";
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background-color:#2D2D2D;
+    margin: 0px;
+    padding: 0px;
+
+}
+.top_1{
+    float: left;
+}
+.top_2{
+    float: right;
+    top:0;
+    right: 0;
+    margin: 15px;
+}
+
+.top_2_1 li{
+
+    float: left;
+    margin-left: 20px;
+    font-size:small;
+
+}
+.top_2_1>li a{
+    color:white;
+}
+.mid{
+    background-color: gainsboro;
+    top: 50px;
+    left: 0px;;
+    margin: 0px;
+    float: right;
+    padding: 0px;
+
+}
+.article_01{
+    top: 50px;
+    left: 0;
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    text-indent: 2em;
+
+}
+.article_02{
+    left: 0;
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    text-indent: 2em;
+
+}
+.article_02>ul{
+    list-style: none;
+}
+.article_03{
+    left: 0;
+    margin: 20px;
+    padding:30px;
+    background-color: white;
+
+}
+.article_03 li{
+    list-style: none;
+    border: 1px solid grey;
+    width:150px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+
+}
+.article_03 p{
+    vertical-align: middle;
+}
+.article_03 img{
+    clear: both;
+    width: 100px;
+    height: 100px;
+}
+.article_04{
+    left: 0;
+    margin: 20px;
+    padding:30px;
+    background-color: white;
+}
+.article_04 table{
+    border-collapse: collapse;
+    border-color: gray;
+}
+.article_04 span{
+    color:white;
+}
+.article_05{
+    left: 0;
+    margin: 20px;
+    padding:30px;
+    background-color: white;
+}
+.submit{
+    padding-left: 30%;
+}
+.article_05 .t1{
+    text-align: right;
+}
+.article_05 .t2{
+    text-align: left;
+}
+.submit_bt{
+    background-color: blue;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.bottom{
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
