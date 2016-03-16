@@ -26,8 +26,9 @@ body{
 .top_2_1 li{
 
     float: left;
-    margin-left: 20px;
-    font-size:small;
+    display:inline;
+    margin-left: 30px;
+    font-size: small;
 
 }
 .top_2_1>li a{
