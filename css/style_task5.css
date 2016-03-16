@@ -1,0 +1,118 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    width: auto;
+    height: 50px;
+    margin: 0px ;
+
+    background-color: #2D2D2D;
+}
+.head>img{
+    height: 50px;
+}
+.nav{
+    float: right;
+    top: 0px;
+    right: 0px;
+}
+.nav ul{
+    display: inline;
+}
+.nav ul>li{
+    float: left;
+    margin: 20px 20px 20px 0px;
+    font-size: smaller;
+    color: #ffffff;
+}
+.container{
+    padding: 20px;
+    background-color: #ddd;
+    position: absolute;
+
+}
+.left_container{
+    position: relative;
+    width: 68%;
+    float: left;
+
+}
+.page{
+    margin: 10px 10px;
+    padding:10px 30px;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    box-shadow: 1px 1px 1px #888;
+    overflow: auto;
+}
+.page>p{
+    text-indent: 2em;
+}
+.tb1{
+    border-collapse: collapse;
+    border-color: gray;
+}
+
+#page3>ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+
+}
+#page3>ul li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+
+}
+#page3 p{
+    text-align: center;
+}
+#page3 img{
+    height: 100px;
+    width: 100px;
+}
+.right_container{
+    position: relative;
+    padding: 20px;
+    background-color: #ffffff;
+    float: right;
+    width: 30%;
+    margin: 10px 0px;
+    padding: 10px;
+
+
+}
+.right_container div{
+    font-size: 13px;
+
+}
+.right_container p{
+    margin-left: 37%;
+    color: #dddddd;
+}
+.right_container label{
+    display: inline-block;
+    text-align: right;
+    width: 35%;
+    margin-right: 5px;
+    vertical-align: top;
+
+}
+.submit_bt{
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    margin: 10px 0px;
+}
+
+.form_headline{
+    padding-left: 15px;
+    border-left: 4px solid #cccccc;
+}
