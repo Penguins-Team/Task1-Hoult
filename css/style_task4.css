@@ -1,0 +1,32 @@
+.main{
+    padding: 200px;
+    margin: 0px 200px;
+    height: auto;
+    background-color: transparent;
+    border: 1px solid #999;
+
+}
+.mid{
+    display: block;
+    width: 400px;
+    height: 200px;
+    background-color: #cccccc;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.mid_left,.mid_right{
+    background-color: #ffcc00;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    border-radius: 50px;
+}
+.mid_left{
+    top:-50px;
+    left: -50px;
+}
+.mid_right{
+    bottom: -50px;
+    right: -50px;
+}
