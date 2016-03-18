@@ -281,9 +281,7 @@ body{
     margin-top: 20px;
     margin-left: 15px;
 }
-.p2_right_down p{
-    margin-bottom: 5px;
-}
+
 .p2_right_down_sp1{
     font-size: 12px;
     color: #231815;
@@ -350,9 +348,7 @@ body{
     text-indent: 2em;
 
 }
-.p2_right_down p{
-    float: left;
-}
+
 #p3_left_down_p1 img{
     float: right;
     right: 0px;
