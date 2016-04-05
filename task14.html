@@ -35,14 +35,14 @@
         var nw=new Array();
         for(var i=0;i<aqiData.length;i++){
             var temp = aqiData[i][1];
-            if(temp>60){
+            if(temp>=60){
                 nw.push(aqiData[i]);
             }
         }
         nw.sort(function(x,y){
             return y[1]-x[1];
         });
-        alert(nw);
+//        alert(nw);
         var l='';
         for(var i=0; i<nw.length;i++){
             l+='<li>第' + (i + 1) + '名：' + nw[i][0]  + nw[i][1] + '</li>';
